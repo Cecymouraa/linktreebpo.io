@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('./img/1000243153.jpeg'); /* sua imagem local */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: rgba(56, 78, 65, 0.932); /* Bege com transparência */
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    max-width: 80%;
+}
+
+.Foto-perfil {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #ffffff;
+}
+
+.sub-titulo {
+    margin-bottom: 30px;
+    color: #6B8A6E; /* Verde-clin suave */
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+    margin: 20px auto;
+    text-decoration: none;
+    background-color: rgba(107, 138, 110, 0.15); /* Verde-clin com leve transparência */
+    border-radius: 5px;
+    width: fit-content;
+    transition: background-color 0.3s ease;
+    border: 1px solid rgb(56, 85, 58); /* Borda sutil em verde-clin */
+}
+
+.link:hover {
+    background-color: rgba(107, 138, 110, 0.25); /* Hover em verde-clin mais forte */
+}
+
+.link img {
+    width: 24px;
+    height: 24px;
+}
+
+.link p {
+    color: #ffffff;
+    margin: 0;
+}
