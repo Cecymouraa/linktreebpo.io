@@ -24,3 +24,6 @@ O projeto pode ser facilmente publicado em plataformas como Netlify ou GitHub Pa
 
 ## Estrutura do Repositório
 
+![image](https://github.com/user-attachments/assets/c38cc076-fa76-48d4-9640-e4801452557e)
+
+
